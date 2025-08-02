@@ -1,0 +1,30 @@
+CREATE TABLE EMPLOYEE.departments (
+    department_id NUMBER PRIMARY KEY,
+    department_name VARCHAR2(100) NOT NULL
+);
+
+select * from EMPLOYEE.hr_records;
+select * from EMPLOYEE.departments;
+
+INSERT ALL
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (10,  'Software Development')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (20,  'Quality Assurance')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (30,  'IT Support')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (40,  'DevOps')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (50,  'Cybersecurity')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (60,  'Data Science')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (70,  'Project Management')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (80,  'UI/UX Design')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (90,  'Human Resources')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (100, 'Finance')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (110, 'Cloud Engineering')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (120, 'Product Management')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (130, 'Business Analysis')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (140, 'Customer Support')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (150, 'Network Operations')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (160, 'Information Security')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (170, 'Database Administration')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (180, 'Research and Development')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (190, 'Technical Writing')
+  INTO EMPLOYEE.departments (department_id, department_name) VALUES (200, 'Sales and Marketing')
+SELECT * FROM dual;
